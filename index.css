@@ -13,6 +13,13 @@ body {
   margin-top: 33px;
   justify-content: space-between;
 }
+.content {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+
 .sb-btn {
   background: #ffffff;
   border-radius: 6px;
