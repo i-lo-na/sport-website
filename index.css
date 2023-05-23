@@ -4,7 +4,13 @@ body {
   font-family: "Montserrat";
   color: #fff;
 }
-
+.fetita{
+  width: 50vw;
+  position: absolute;
+  right: 0;
+  top:0;
+  z-index: -1;
+}
 .header {
   display: flex;
   width: 100%;
@@ -45,53 +51,47 @@ body {
   justify-content: space-between;
 }
 .box-mici {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   width: 225px;
   height: 177px;
   background: #181818;
   border-radius: 12px;
 }
-.haltere{
+.haltere {
   width: 85px;
 }
-.cirese{
+.cirese {
   width: 48px;
 }
-.cantar{
+.cantar {
   width: 46px;
 }
-.cantar-mare{
-width: 62.3px;
-
-
-
+.cantar-mare {
+  width: 62.3px;
 }
-.titlu{
-  
-width: 62.18px;
-height: 22.53px;
-left: 228px;
-top: 645px;
+.titlu {
+  width: 62.18px;
+  height: 22.53px;
+  left: 228px;
+  top: 645px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-text-transform: uppercase;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
 
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
-.img-wrapper{
+.img-wrapper {
   width: 85px;
-  height:62px;
+  height: 62px;
   background-color: red;
   display: flex;
   justify-content: center;
@@ -115,10 +115,62 @@ color: #FFFFFF;
   opacity: 0.5;
 }
 
+.content-mijloc {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
 .telefon {
-  position: absolute;
-  top: 814px;
-  left: 800px;
+  width: 100%;
+}
+.telefon-figma {
+  position: relative;
+  width: 574px;
+  right: -129px;
+}
+
+.tot-textul {
+  width: 100%;
+}
+.meniu-mijloc {
+  display: flex;
+  gap: 62px;
+  margin-bottom: 39px;
+}
+h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+.meniu-mijloc div {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.meniu-mijloc .active {
+  /* padding si border pt linia rosie*/
+  color: #fa3a10;
+  padding: 0 20px 7px 0;
+  border-bottom: 1px solid #fa3a10;
+}
+.parinte-jos {
+  display: flex;
+  gap: 60px;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  margin: 26px 65px 0 65px;
+}
+
+.parinte-jos .cifre {
+  margin-bottom: 20px;
 }
 
 img {
@@ -139,4 +191,125 @@ img {
   text-transform: uppercase;
 
   color: #ffffff;
+}
+.content-jos {
+  width: 100%;
+  margin-top: 350px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dreptunghi-culcat {
+  display: felx;
+  width: 200px;
+  background-color: red;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.parinte-dreptunghi {
+  display: flex;
+  width: 100%;
+  max-width: 1160px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.patrate-s {
+  background-color: red;
+  width: 321px;
+}
+.aici-ma {
+  font-weight: 900;
+  font-size: 28px;
+}
+.patrate-m {
+  background-image: url(/images/poza-fundal\ corp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 359px;
+}
+.patrate-m .sb-btn {
+  margin-top: 36px;
+  margin-left: 42px;
+}
+.titlul {
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 231px;
+  margin-left: 42px;
+}
+.patrate-d .titlul {
+  margin-right: 144px;
+  margin-bottom: 410px;
+}
+.subtitlu-pe-poza {
+  position: absolute;
+}
+.telefon-mail {
+  margin-top: 78px;
+  margin-left: 40px;
+}
+.telefon-mail div {
+  margin-bottom: 4px;
+}
+.text-jos {
+  width: 295px;
+  margin-left: 42px;
+  margin-top: 30px;
+}
+
+.poza-fundal-corp {
+  position: relative;
+  display: inline-block;
+  width: 359px;
+}
+.patrate-d {
+ position: relative;
+  width: 324px;
+ 
+}
+.htitlu{
+  font-weight: 900;
+font-size: 18px;
+margin-top:0px;
+margin-top: 231px;
+
+}
+.patrate-d img{
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+}
+.social img {
+  width: 30px;
+}
+.social {
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  margin-left: 40px;
+  margin-top: 64px;
+  margin-bottom: 12px;
+}
+.footer-wrap{
+  
+  background-color: #181818;
+}
+.footer{
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+  padding-top: 38px;
+  padding-bottom: 87px;
+
+}
+.meniu-jos{
+  display: flex;
+  justify-content: space-between;
+
+ width: 442px;
+ text-align: center;
+ flex-direction: row;
 }
